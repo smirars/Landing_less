@@ -1,18 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 .header {
-  background-color: #F0EEDD;
-  position: absolute;
-  width: 554px;
-  height: 21px;
-  left: calc(50% - 554px/2);
-  top: 9px;
   font-family: 'Roboto';
   font-style: normal;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 20px;
-  /* identical to box height, or 170% */
-  text-align: center;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+.header__motto {
+  text-align: center;
+  background-color: #F0EEDD;
   color: #670A18;
+  margin: 0;
+  height: 40px;
+  line-height: 40px;
+  font-weight: 700;
+}
+.header__list {
+  height: 82px;
+  line-height: 82px;
+  display: flex;
+  color: #35312E;
+  font-weight: bold;
+}
+.header__list--item {
+  margin-inline: 15px;
+}
+.header__list--item--name {
+  text-transform: none;
+  margin-inline: auto;
+  font-size: 28px;
+  letter-spacing: -2px;
+}
+.header__list--item:first-child {
+  margin-left: 30px;
+}
+.header__list--item:last-child {
+  margin-right: 30px;
+  text-align: center;
+  color: white;
+}
+.header__list--item:last-child::after {
+  width: 35px;
+  height: 35px;
+  background-color: #C87B5E;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 63px;
+  right: 18px;
+  z-index: -10;
 }
