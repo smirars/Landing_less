@@ -3,7 +3,7 @@ body {
   padding: 0;
 }
 .header {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 12px;
   letter-spacing: 0.5px;
@@ -52,4 +52,43 @@ body {
   top: 63px;
   right: 18px;
   z-index: -10;
+}
+.special {
+  background-image: url("src/header_background.png");
+  background-size: cover;
+  position: relative;
+  height: 600px;
+  color: #35312E;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+.special__motto {
+  top: 170px;
+  left: 370px;
+  position: absolute;
+  font-size: 16px;
+}
+.special__title {
+  position: absolute;
+  top: 200px;
+  left: 370px;
+  text-transform: none;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+.special__title .name {
+  text-decoration: underline;
+}
+.special__btn {
+  position: absolute;
+  top: 380px;
+  left: 370px;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  background-color: #C87B5E;
+  padding: 20px;
+  width: 210px;
+  text-align: center;
 }

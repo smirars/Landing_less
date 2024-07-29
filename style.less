@@ -1,5 +1,7 @@
 @color_1: #F0EEDD; 
 @color_2: #C87B5E;
+@main_font: "Roboto", sans-serif;
+@color_special: #35312E;
  
 
 body {
@@ -7,7 +9,7 @@ body {
     padding: 0;
 }
 .header {
-    font-family: 'Roboto';
+    font-family: @main_font;
     font-style: normal;
     font-size: 12px;
     letter-spacing: 0.5px;
@@ -57,5 +59,51 @@ body {
         }
     }
 }
+
+.special {
+    background-image: url("src/header_background.png");
+    background-size: cover;
+    position: relative;
+    height: 600px;
+    color: @color_special;
+    font-family: @main_font;
+    text-transform: uppercase;
+    &__motto {
+        top: 170px;
+        left: 370px;
+        position: absolute;
+        font-size: 16px;
+    }
+    &__title {
+        position: absolute;
+        top: 200px;
+        left: 370px;
+        text-transform: none;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: 1px;
+        .name {
+            text-decoration: underline;
+        }
+    }
+    &__btn {
+        position: absolute;
+        top: 380px;
+        left: 370px;
+        color: white;
+        font-weight: 700;
+        font-size: 12px;
+        background-color: @color_2;
+        padding: 20px;
+        width: 210px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
 
 
