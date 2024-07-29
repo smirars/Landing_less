@@ -2,6 +2,7 @@
 @color_2: #C87B5E;
 @main_font: "Roboto", sans-serif;
 @color_special: #35312E;
+@parts_color: #FFF1F1;
 
 
 body {
@@ -150,6 +151,107 @@ body {
         height: 104px;
     }
 }
+.parts {
+    background-color: @parts_color;
+    font-family: @main_font;
+    &__title {
+        font-size: 35px;
+        line-height: 48px;
+        text-align: center;
+        padding-top: 40px;
+    }
+    &__colors-list {
+        margin-top: 35px;
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: space-around;
+        width: 345px;
+        margin-inline: auto;
+        & .color-item {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        & .color1 {
+            background-color: @color_2;
+        }
+        & .color2 {
+            background-color: #6549D7;
+        }
+        & .color3 {
+            background-color: #FF9640;
+        }
+        & .color4 {
+            background-color: #1F4D11;
+        }
+        & .color5 {
+            background-color: #AD5947;
+        }
+        & .color6 {
+            background-color: #D9D6D7;
+        }
+        & .color7 {
+            background-color: #1B1A1A;
+        }
+        & .color8 {
+            background-color: #DDA6FF;
+        }
+        & .active {
+            border: 3px solid @color_2;
+            width: 27px;
+            height: 27px;
+        }
+    }
+    &__content {
+        width: 553px;
+        margin-left: 37%;
+        position: relative;
+        & img {
+            width: 553px;
+            margin-bottom: 70px;
+        }
+        & .content-items {
+            text-align: center;
+            text-transform: uppercase;
+            font-family: @main_font;
+            font-size: 12px;
+            line-height: 15px;
+            & .item1 {
+                position: absolute;
+                top: 85px;
+                left: -150px;
+            }
+            & .item2 {
+                position: absolute;
+                top: 350px;
+                left: -50px;
+            }
+            & .item3 {
+                position: absolute;
+                top: 460px;
+                left: -150px;
+            }
+            & .item4 {
+                position: absolute;
+                top: 50px;
+                left: 380px;
+            }
+            & .item5 {
+                position: absolute;
+                top: 290px;
+                left: 380px;
+            }
+            & .item6 {
+                position: absolute;
+                top: 440px;
+                left: 430px;
+            }
+        }
+    }
+}
+
+
+
 
 
 
