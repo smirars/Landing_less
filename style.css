@@ -92,3 +92,26 @@ body {
   width: 210px;
   text-align: center;
 }
+.companies {
+  font-family: "Roboto", sans-serif;
+  background-color: #E5DCCF;
+}
+.companies__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.companies__list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 70%;
+  margin-inline: auto;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.companies__item img {
+  height: 29px;
+}

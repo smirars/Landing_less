@@ -2,7 +2,7 @@
 @color_2: #C87B5E;
 @main_font: "Roboto", sans-serif;
 @color_special: #35312E;
- 
+
 
 body {
     margin: 0;
@@ -100,10 +100,31 @@ body {
     }
 }
 
-
-
-
-
+.companies {
+    font-family: @main_font;
+    background-color: #E5DCCF;
+    &__title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    &__list {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 70%;
+        margin-inline: auto;
+        justify-content: space-between;
+        padding-bottom: 30px;
+    }
+    &__item {
+        & img {
+            height: 29px;
+        }
+    }
+}
 
 
 
