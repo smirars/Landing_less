@@ -115,3 +115,27 @@ body {
 .companies__item img {
   height: 29px;
 }
+.info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
+  height: 340px;
+  align-items: center;
+}
+.info__title {
+  text-align: center;
+  letter-spacing: 1.25px;
+  font-size: 41px;
+  line-height: 46px;
+  font-weight: bold;
+  width: 400px;
+  height: 93px;
+  vertical-align: middle;
+}
+.info__content {
+  width: 650px;
+  font-size: 16px;
+  line-height: 20px;
+  height: 104px;
+}
