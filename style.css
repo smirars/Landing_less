@@ -237,3 +237,21 @@ body {
   top: 440px;
   left: 430px;
 }
+.short-info {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  margin-top: 50px;
+}
+.short-info__title {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 55px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.short-info__content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+}
