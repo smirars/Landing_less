@@ -255,3 +255,76 @@ body {
   line-height: 29px;
   text-align: center;
 }
+.products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.products__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.products__item .first_item {
+  position: relative;
+  width: 253px;
+  height: 285px;
+}
+.products__item .second_item {
+  position: relative;
+  width: 253px;
+  height: 285px;
+}
+.products__item .third_item {
+  position: relative;
+  width: 253px;
+  height: 285px;
+}
+.products__item .fourth_item {
+  position: relative;
+  top: 100px;
+  width: 306px;
+  height: 204px;
+}
+.products__item .item_title {
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+.products__item .item_title.below {
+  position: relative;
+  top: 80px;
+}
+.products__item .item_cost {
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin-inline: auto;
+  color: #6E635A;
+}
+.products__item .item_cost.below {
+  position: relative;
+  top: 80px;
+}
+.products__item .item_description {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  width: 161px;
+  color: #6E635A;
+  margin-inline: auto;
+}
+.products__item .item_description.below {
+  position: relative;
+  top: 80px;
+}
