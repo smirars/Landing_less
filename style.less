@@ -280,6 +280,7 @@ body {
             position: relative;
             width: 253px;
             height: 285px;
+            margin-inline: auto;
         }
         & .second_item {
             position: relative;
@@ -339,6 +340,35 @@ body {
                 position: relative;
                 top: 80px;
             }         
+        }
+    }
+    &__colors-list {
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        margin-inline: auto;
+        &.one {
+            position: relative;
+            top: 20px;
+        }
+        & .list-item {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+        & .first {
+            background-color: @color_2;
+        }
+        & .second {
+            background-color: #6549D7;
+        }
+        & .third {
+            background-color: #FF9640;
+        }
+        &.below {
+            position: relative;
+            top: 80px;
         }
     }
 }

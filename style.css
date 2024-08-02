@@ -269,6 +269,7 @@ body {
   position: relative;
   width: 253px;
   height: 285px;
+  margin-inline: auto;
 }
 .products__item .second_item {
   position: relative;
@@ -325,6 +326,35 @@ body {
   margin-inline: auto;
 }
 .products__item .item_description.below {
+  position: relative;
+  top: 80px;
+}
+.products__colors-list {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-inline: auto;
+}
+.products__colors-list.one {
+  position: relative;
+  top: 20px;
+}
+.products__colors-list .list-item {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.products__colors-list .first {
+  background-color: #C87B5E;
+}
+.products__colors-list .second {
+  background-color: #6549D7;
+}
+.products__colors-list .third {
+  background-color: #FF9640;
+}
+.products__colors-list.below {
   position: relative;
   top: 80px;
 }
