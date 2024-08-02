@@ -502,3 +502,27 @@ body {
   display: flex;
   gap: 20px;
 }
+footer {
+  background-color: #807C62;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  color: rgba(245, 241, 233, 0.6);
+}
+footer ul {
+  position: relative;
+  bottom: 15px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  gap: 35px;
+  width: 450px;
+}
+footer .copyright {
+  position: relative;
+  top: 15px;
+  margin-left: 20px;
+}
