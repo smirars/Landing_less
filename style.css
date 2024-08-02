@@ -416,3 +416,53 @@ body {
   text-decoration: none;
   color: black;
 }
+.footer {
+  height: 579px;
+  background-color: #6C674D;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+.footer__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 58px;
+  letter-spacing: 0.7px;
+  margin-left: 30px;
+  padding-top: 80px;
+}
+.footer__content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 30px;
+}
+.footer__lists {
+  position: relative;
+  bottom: 80px;
+  right: 80px;
+  margin-left: auto;
+  display: flex;
+  width: 450px;
+  gap: 15px;
+}
+.footer__lists ul {
+  list-style: none;
+}
+.footer__lists ul .list_title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.footer__lists ul .list_item {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  color: rgba(245, 241, 233, 0.6);
+}

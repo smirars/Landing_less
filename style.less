@@ -435,6 +435,59 @@ body {
     }
 }
 
+.footer {
+    height: 579px;
+    background-color: @footer_color;
+    color: white;
+    font-family: @main_font;
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 58px;
+        letter-spacing: 0.7px;
+        margin-left: 30px;
+        padding-top: 80px;
+    }
+    &__content {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-left: 30px;
+        
+    }
+    &__lists {
+        position: relative;
+        bottom: 80px;
+        right: 80px;
+        margin-left: auto;
+        display: flex;
+        width: 450px;
+        gap: 15px;
+        & ul {
+            list-style: none;
+            & .list_title {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 12px;
+                line-height: 20px;
+                letter-spacing: 0.5px;
+                text-transform: uppercase;
+            }
+            & .list_item {
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 31px;
+                color: rgba(245, 241, 233, 0.6);
+            }
+        }
+    }
+}
+
+
 
 
 
