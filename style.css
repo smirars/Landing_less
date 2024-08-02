@@ -483,3 +483,22 @@ body {
   position: relative;
   right: 10px;
 }
+.countries {
+  font-family: "Roboto", sans-serif;
+  width: 144px;
+  margin-left: auto;
+  margin-right: 350px;
+}
+.countries__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.countries__flags {
+  display: flex;
+  gap: 20px;
+}
