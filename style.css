@@ -331,6 +331,7 @@ body {
 }
 .products__colors-list {
   margin-top: 15px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
   gap: 10px;
@@ -357,4 +358,61 @@ body {
 .products__colors-list.below {
   position: relative;
   top: 80px;
+}
+.prefooter {
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #D9D6D7;
+}
+.prefooter__item img {
+  height: 480px;
+  margin-right: 0;
+  padding: 0;
+}
+.prefooter__item.center {
+  position: relative;
+  height: 480px;
+  width: calc(100% - 960px);
+}
+.prefooter__item .title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+.prefooter__item .content {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #35312E;
+}
+.prefooter__item .btn {
+  width: 150px;
+  background-color: white;
+  margin-inline: auto;
+  margin-top: 20px;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.prefooter__item .btn a {
+  text-decoration: none;
+  color: black;
 }
