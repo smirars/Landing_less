@@ -515,6 +515,13 @@ body {
   width: 450px;
   gap: 15px;
 }
+@media screen and (max-width: 1150px) {
+  .footer__lists {
+    margin-left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
 .footer__lists ul {
   list-style: none;
 }
