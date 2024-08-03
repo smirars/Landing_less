@@ -18,6 +18,11 @@ body {
   line-height: 40px;
   font-weight: 700;
 }
+@media screen and (max-width: 700px) {
+  .header__motto {
+    font-size: 10px;
+  }
+}
 .header__list {
   height: 82px;
   line-height: 82px;
@@ -33,6 +38,11 @@ body {
   margin-inline: auto;
   font-size: 28px;
   letter-spacing: -2px;
+}
+@media screen and (max-width: 700px) {
+  .header__list--item--name {
+    font-size: 20px;
+  }
 }
 .header__list--item:first-child {
   margin-left: 30px;
