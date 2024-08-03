@@ -78,6 +78,11 @@ body {
   position: absolute;
   font-size: 16px;
 }
+@media screen and (max-width: 1000px) {
+  .special__motto {
+    left: 70px;
+  }
+}
 .special__title {
   position: absolute;
   top: 200px;
@@ -90,6 +95,11 @@ body {
 .special__title .name {
   text-decoration: underline;
 }
+@media screen and (max-width: 1000px) {
+  .special__title {
+    left: 70px;
+  }
+}
 .special__btn {
   position: absolute;
   top: 380px;
@@ -101,6 +111,11 @@ body {
   padding: 20px;
   width: 210px;
   text-align: center;
+}
+@media screen and (max-width: 1000px) {
+  .special__btn {
+    left: 70px;
+  }
 }
 .companies {
   font-family: "Roboto", sans-serif;
