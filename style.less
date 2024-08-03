@@ -175,6 +175,9 @@ body {
         line-height: 48px;
         text-align: center;
         padding-top: 40px;
+        @media screen and (max-width: 1000px) {
+            font-size: 28px;
+        }
     }
     &__colors-list {
         margin-top: 35px;
@@ -225,6 +228,11 @@ body {
         & img {
             width: 553px;
             margin-bottom: 70px;
+            @media screen and (max-width: 1000px) {
+                width: 300px;
+                position: relative;
+                right: 30px;
+            }
         }
         & .content-items {
             text-align: center;
@@ -232,6 +240,9 @@ body {
             font-family: @main_font;
             font-size: 12px;
             line-height: 15px;
+            @media screen and (max-width: 1000px) {
+                display: none;
+            }
             & .item1 {
                 position: absolute;
                 top: 85px;
